@@ -1,4 +1,4 @@
-const createCore = require('../Controllers/core.js')
+import createCore from '../Controllers/core.js'
 
 function createMok(){
     function start(){

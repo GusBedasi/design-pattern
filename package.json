@@ -5,14 +5,18 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/index.js --ignore tests",
     "test": "jest"
+  },
+  "jest": {
+    "transform": {}
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "babel-preset-env": "^1.7.0",
     "jest": "^26.4.2"
   }
 }

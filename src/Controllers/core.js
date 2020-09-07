@@ -1,5 +1,5 @@
-const createDatabaseConnection = require('../Controllers/database.js')
-const createWebServer = require('../Controllers/webserver.js')
+import createDatabaseConnection from '../Controllers/database.js'
+import createWebServer from '../Controllers/webserver.js'
 
 function createCore(configurations = {}){
 
@@ -26,4 +26,4 @@ function createCore(configurations = {}){
     }
 }
 
-module.exports = createCore
+export default createCore
